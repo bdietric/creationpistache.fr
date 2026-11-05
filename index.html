@@ -3,43 +3,77 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>CreationPistache – Applications Android</title>
-<meta name="description" content="CreationPistache édite des applications Android simples et sans abonnement : Pistache Budget, Depuis quand ?">
-<link rel="stylesheet" href="/style.css">
+<title>CreationPistache – Applis simples, sans abonnement</title>
+<meta name="description" content="CreationPistache crée des applications Android pour simplifier le quotidien des familles : Pistache Budget et Depuis quand ?. Achat unique, jamais d'abonnement.">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-<header>
-  <h1><a href="/">CreationPistache</a></h1>
-  <p>Des applis simples, utiles, sans abonnement</p>
-</header>
+<header class="top"><div class="wrap">
+  <a class="brand" href="index.html" aria-label="CreationPistache, accueil"><svg viewBox="0 0 88 88" aria-hidden="true"><circle cx="44" cy="44" r="44" fill="#2F3A31"/><text x="44" y="61" text-anchor="middle" font-family="Jost, 'Work Sans', Helvetica, Arial, sans-serif" font-size="46" fill="#F3F1EA">P</text><path d="M54 20 Q61 13 68 20 Q61 27 54 20 Z" fill="#7A9A52"/></svg>
+    <span class="brand-txt"><small>Création</small><span>Pistache</span></span></a>
+  <nav class="nav"><a href="index.html#applis">Applications</a><a href="index.html#apropos">À propos</a><a href="index.html#contact">Contact</a></nav>
+</div></header>
+
 <main>
-  <h2>Nos applications</h2>
+<div class="wrap hero">
+  <span class="kicker">Applications Android</span>
+  <h1>Des applis simples pour <em>alléger le quotidien</em> des familles</h1>
+  <p>Pensées en Gironde, faites pour durer : pas d'abonnement, pas de pub, et des données qui vous appartiennent.</p>
+  <svg class="amande" viewBox="0 0 220 20" aria-hidden="true"><path d="M0 10H95" stroke="#E2DED3"/><path d="M125 10H220" stroke="#E2DED3"/><path d="M100 10 Q110 1 120 10 Q110 19 100 10Z" fill="#7A9A52"/></svg>
+</div>
+
+<section id="applis"><div class="wrap">
+  <div class="titre"><h2>Nos applications</h2><small>Google Play</small></div>
   <div class="apps">
-    <div class="carte">
-      <h3>Pistache Budget</h3>
-      <p>Gérez votre budget par enveloppes et suivez votre épargne, simplement.</p>
-      <p><a href="/pistache-budget/confidentialite.html">Politique de confidentialité</a><br>
-         <a href="/pistache-budget/suppression-compte.html">Supprimer mon compte</a></p>
-    </div>
-    <div class="carte">
-      <h3>Depuis quand ?</h3>
-      <p>Notez la dernière fois qu'une tâche a été faite et gardez l'inventaire de votre congélateur.</p>
-      <p><a href="/depuis-quand/confidentialite.html">Politique de confidentialité</a></p>
-    </div>
+    <article class="app">
+      <div class="app-head"><div class="icone i-budget"><svg viewBox="0 0 24 24" fill="none" stroke="#F3F1EA" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="6" width="18" height="13" rx="2.5"/><path d="M3 10h18"/><path d="M16 15h2"/><path d="M7 6V4.5h10V6"/></svg></div>
+        <div><h3>Pistache Budget</h3><span class="badge">Gratuite · version complète en achat unique</span></div></div>
+      <p>Gérez votre budget par enveloppes, suivez vos dépenses et voyez votre épargne grandir, sans tableur compliqué.</p>
+      <div class="liens">
+        <a class="btn" href="confidentialite-pistache-budget.html">Politique de confidentialité</a>
+        <a class="btn" href="suppression-compte-pistache-budget.html">Supprimer mon compte</a>
+      </div>
+    </article>
+    <article class="app">
+      <div class="app-head"><div class="icone i-quand"><svg viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="13" r="8"/><path d="M12 9v4l2.5 2"/><path d="M9 2.5h6"/></svg></div>
+        <div><h3>Depuis quand ?</h3><span class="badge">Gratuite · options en achat unique</span></div></div>
+      <p>La dernière fois qu'on a changé les draps, l'inventaire du congélateur, les menus de la semaine : tout est noté, la tête est libérée.</p>
+      <div class="liens">
+        <a class="btn" href="confidentialite-depuis-quand.html">Politique de confidentialité</a>
+      </div>
+    </article>
   </div>
+</div></section>
 
-  <h2>Qui sommes-nous ?</h2>
-  <p>CreationPistache est une micro-entreprise française basée en Gironde. Nous créons des applications Android
-  et des produits numériques pensés pour simplifier le quotidien des familles. Nos applis sont gratuites ou
-  se débloquent par un <strong>achat unique</strong> : jamais d'abonnement.</p>
+<section class="promesses"><div class="wrap">
+  <div class="titre"><h2>Nos engagements</h2></div>
+  <div class="grid3">
+    <div class="promesse"><div class="pastille"><svg viewBox="0 0 24 24" fill="none" stroke="#7A9A52" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg></div><h3>Jamais d'abonnement</h3><p>Une appli gratuite, et si vous voulez plus, un seul achat, à vie.</p></div>
+    <div class="promesse"><div class="pastille"><svg viewBox="0 0 24 24" fill="none" stroke="#7A9A52" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="11" width="14" height="9" rx="2"/><path d="M8 11V8a4 4 0 0 1 8 0v3"/></svg></div><h3>Vos données sont à vous</h3><p>Aucune revente, aucune publicité, aucun pistage. Vous pouvez tout supprimer quand vous voulez.</p></div>
+    <div class="promesse"><div class="pastille"><svg viewBox="0 0 24 24" fill="none" stroke="#7A9A52" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-7-4.5-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 11c0 5.5-7 10-7 10z"/></svg></div><h3>Faites en famille</h3><p>Des outils que nous utilisons nous-mêmes, à la maison, au quotidien.</p></div>
+  </div>
+</div></section>
 
-  <h2>Contact</h2>
-  <p>Une question, un bug, une suggestion ? Écrivez-nous : <a href="mailto:contact@creationpistache.fr">contact@creationpistache.fr</a></p>
+<section id="apropos"><div class="wrap duo">
+  <div>
+    <h2>Qui sommes-nous ?</h2>
+    <p>CreationPistache est une petite entreprise familiale française, installée en Gironde. Le nom vient de Pistache, notre premier chat.</p>
+    <p>Nous créons des applications Android et des ressources numériques imprimables pour les familles et les enseignants, avec une idée simple : des outils utiles, clairs et honnêtes.</p>
+  </div>
+  <div class="contact" id="contact">
+    <h2>Une question ?</h2>
+    <p>Un bug, une idée d'amélioration, une demande sur vos données : écrivez-nous, nous répondons sous quelques jours.</p>
+    <a class="mail" href="mailto:contact@creationpistache.fr">contact@creationpistache.fr</a>
+  </div>
+</div></section>
 </main>
-<footer>
-  © 2026 CreationPistache
-  <a href="/mentions-legales.html">Mentions légales</a>
-  <a href="mailto:contact@creationpistache.fr">Contact</a>
-</footer>
+<footer><div class="wrap">
+  <span>© 2026 CreationPistache · Gironde, France</span>
+  <nav><a href="mentions-legales.html">Mentions légales</a><a href="confidentialite-pistache-budget.html">Confidentialité Pistache Budget</a><a href="confidentialite-depuis-quand.html">Confidentialité Depuis quand ?</a><a href="mailto:contact@creationpistache.fr">Contact</a></nav>
+</div></footer>
 </body>
 </html>
